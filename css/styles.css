@@ -1,0 +1,209 @@
+
+* {
+    font-family: "Myriad Pro", sans-serif;
+}
+
+body {
+    background: rgb(15,110,255);
+    background: linear-gradient(305deg, rgba(15,15,15,0.8407563709077381) 20%, rgba(115,115,115,1) 100%);
+}
+
+#container-geral {
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
+}
+
+#topo {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: solid #555555 1px;
+}
+
+#sql-editor {
+    width: 28%;
+    float: left;
+    height: 750px;
+    padding: 1%;
+    border-right: solid #555555 1px;
+    background-color: #DEDEDE;
+}
+
+#sql-editor #input-sql-editor {
+    width: 98%;
+    height: 650px;
+    margin: 0px;
+    padding: 1%;
+    font-family: "Courier New";
+    color: #0000FF;
+}
+
+#resultados {
+    width: 70%;
+    height: 750px;
+    overflow: auto;
+    float: left;
+    background-color: #DEDEDE;
+}
+
+.padding-footer {
+    padding: 30px;
+}
+
+table, thead, tbody, th, tr, td {
+    border: solid #888888 1px !important;
+    background-color: #FFFFFF !important;
+}
+
+td {
+    padding: 3px;
+}
+
+th {
+    padding: 5px;
+    background-color: #DEDEDE !important;
+}
+
+#logger-view {
+    font-family: "Courier New";
+    width: 90%;
+    height: 100%;
+    padding: 1%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    color: #0b2e13;
+    background-color: #222222;
+    overflow: auto;
+}
+
+#logger-view-controls {
+    text-align: center;
+    font-family: "Arial", "sans-serif";
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 2000;
+    color: #FF66CC;
+    background-color: #4000A0;
+}
+
+#logger-view-alert {
+    text-align: center;
+    font-family: "Courier New";
+    width: 100%;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px auto;
+}
+
+#bt-stop {
+    display: none;
+}
+
+#bt-start {
+    display: block;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+select {
+    color: #1C005A;
+}
+
+button {
+    margin: 5px auto;
+    width: 90%;
+}
+
+pre {
+    /*width: 100%;
+    height: 100%;
+    overflow: auto;*/
+    border: none !important;
+    color: #3FD3CE;
+    background-color: #222222;
+}
+
+.text-error {
+    color: #FF0000;
+}
+#select-logs {
+    width: 90%;
+}
+
+#box-conteiner-login {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    background: rgb(15,110,255);
+    background: linear-gradient(305deg, rgba(15,1,12,0.8407563709077381) 20%, rgba(0,0,115,1) 100%);
+}
+
+#login-box {
+    color: #FFCB6B;
+    text-align: left;
+    width: 26%;
+    height: 60%;
+    margin: 0px;
+    padding: 2%;
+    position: fixed;
+    z-index: 1000;
+    top: 15%;
+    left: 37%;
+    background-image: url("../img/box-login-back.png");
+    background-repeat: repeat;
+    border: solid #FFCB6B 1px;
+}
+
+#login-box input {
+    width: 98%;
+    background-color: #F1F1E3;
+    color: #151515;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+#login-box .btn {
+    display: block;
+    width: 80px;
+    margin: 30px auto;
+}
+
+#logger-view-quit {
+    text-align: center;
+    font-family: "Arial", "sans-serif";
+    width: 100%;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 100px auto;
+}
+
+#a-quit {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
